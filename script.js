@@ -1,4 +1,4 @@
-const list = document.querySelectorAll('.list');
+const list = document.querySelectorAll('.navigation__list');
 
 function activeLink() {
 	list.forEach(item => item.classList.remove('active'));
